@@ -34,7 +34,6 @@ int getsum(int x)
 }
 int main()
 {
-	//freopen("1.in","r",stdin);
 	int k;
 	cin>>n;
 	for(int i=1;i<=n;++i)
