@@ -34,7 +34,10 @@ int getsum(int x)
 }
 int main()
 {
+<<<<<<< HEAD
 	//freopen("1.in","r",stdin);
+=======
+>>>>>>> 5534f22728f78388789139829120ab551681d3ee
 	int k;
 	cin>>n;
 	for(int i=1;i<=n;++i)
