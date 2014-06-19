@@ -1,1 +1,1 @@
-MY algorithm or data structure templates. 
+MY algorithm and data structure templates. 
