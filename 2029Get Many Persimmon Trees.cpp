@@ -42,7 +42,7 @@ int query(int x1,int y1,int x2,int y2)
 
 int main()
 {
-	freopen("1.in","r",stdin);
+	//freopen("1.in","r",stdin);
 	int n,x,y,s,t,i,j,ans;
 	while(cin>>n)
 	{
