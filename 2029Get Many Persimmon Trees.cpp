@@ -57,7 +57,7 @@ int main()
 		}
 		cin>>s>>t;
 		for(i=1;i<=W-s+1;++i)
-			for(j=1;j<=H-t+1;++j)
+			for(j=1;j<=H-t+1;++j)		//枚举起点终点
 			{
 				int x1=i+s-1,y1=j+t-1;
 				ans=max(ans,query(i,j,x1,y1));
