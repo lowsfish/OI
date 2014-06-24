@@ -29,7 +29,7 @@ int dp[250][10];
 */
 int main()
 {
-	freopen("1.in","r",stdin);
+	//freopen("1.in","r",stdin);
 	cin>>n>>k;
 	dp[0][0]=1;
 	for(int i=1;i<=n;++i)
