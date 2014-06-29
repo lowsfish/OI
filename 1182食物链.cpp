@@ -54,7 +54,7 @@ void solve()
 	for(int i=0;i<K;++i)
 	{
 		int t=T[i];
-		int x=X[i]-1,y=Y[i]-1;
+		int x=X[i]-1,y=Y[i]-1;	//变成0～N-1的范围
 		if(x<0 || x>=N || y<0 || y>=N)
 		{
 			++ans;
