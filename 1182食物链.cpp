@@ -38,7 +38,7 @@ void unite(int x,int y)
 	}
 	else
 	{
-		par[y]=par[x];
+		par[y]=x;
 		if(rank[x]==rank[y]) ++rank[x];
 	}
 }
