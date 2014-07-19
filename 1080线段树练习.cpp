@@ -45,7 +45,7 @@ void init()
 
 int main()
 {
-	freopen("1.in","r",stdin);
+//	freopen("1.in","r",stdin);
 	cin>>n;
 	init();
 	for(int i=1;i<=n;++i)
