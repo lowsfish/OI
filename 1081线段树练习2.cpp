@@ -102,7 +102,7 @@ void build(int o,int L,int R)
 int main()
 {
 	ios::sync_with_stdio(false);
-	freopen("1.in","r",stdin);
+	//freopen("1.in","r",stdin);
 	cin>>n;
 	init();
 	for(int i=1;i<=n;++i)
