@@ -6,7 +6,7 @@ int a[MAXN];
 int n;
 int main()
 {
-	freopen("1.in","r",stdin);
+//	freopen("1.in","r",stdin);
 	scanf("%d",&n);
 	for(int i=0;i<n;++i)
 	{
