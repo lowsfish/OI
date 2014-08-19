@@ -76,7 +76,7 @@ void SPFA(int s)
 
 int main()
 {
-	freopen("1.in","r",stdin);
+	//freopen("1.in","r",stdin);
 	input_setup();
 	SPFA(sx*m+sy);
 	printf("%d\n",d[ex*m+ey]);
