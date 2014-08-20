@@ -52,7 +52,7 @@ void floyd()
 
 int main()
 {
-	freopen("1.in","r",stdin);
+//	freopen("1.in","r",stdin);
 	init();
 	input();
 	floyd();
