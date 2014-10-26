@@ -56,7 +56,8 @@ void kruskal()
 		if(!same(es[i].u,es[i].v))
 		{
 			unite(es[i].u,es[i].v);
-			G[es[i].u].push_back(edge(0,es[i].v,es[i].cost));				G[es[i].v].push_back(edge(0,es[i].u,es[i].cost));//实际只用到后面两个参数，所以第一个参数值任意
+			G[es[i].u].push_back(edge(0,es[i].v,es[i].cost));
+			G[es[i].v].push_back(edge(0,es[i].u,es[i].cost));//实际只用到后面两个参数，所以第一个参数值任意
 		}
 	}
 }
