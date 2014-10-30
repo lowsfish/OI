@@ -29,7 +29,7 @@ LL getans(int M)
 		t*=cnt[seg[i][1]]-cnt[seg[i][0]-1];
 		res+=t;
 	}
-	if(M==4) cout<<res<<endl;
+	//if(M==4) cout<<res<<endl;
 	return res;
 }
 int main()
