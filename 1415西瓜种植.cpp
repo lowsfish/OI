@@ -63,7 +63,7 @@ void spfa(int s)
 
 int main()
 {
-	freopen("1.in","r",stdin);
+	//freopen("1.in","r",stdin);
 	while(scanf("%d%d",&n,&m)!=EOF)
 	{
 		input();
