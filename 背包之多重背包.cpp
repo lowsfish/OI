@@ -1,4 +1,4 @@
-//POJ 1384
+//POJ 1276
 #include<cstdio>
 #include<algorithm>
 #include<cstring>
