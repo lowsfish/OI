@@ -91,7 +91,7 @@ void splay(Node* t,Node* f=null)
 	}
 	t->maintain();
 }
-Node* select(int k,Node* t=root)
+Node* select(int k)
 {
 	for(Node* t=root;;)
 	{
