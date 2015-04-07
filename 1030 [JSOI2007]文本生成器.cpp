@@ -5,7 +5,7 @@ const int MAXN=60+5;
 const int MAXL=100+5;
 const int SIGMA_SIZE=26;
 struct Trie{
-    Trie* ch[26],*fail;
+    Trie* ch[SIGMA_SIZE],*fail;
     Trie* jump[SIGMA_SIZE];
     bool hasWord;
     int id;
