@@ -14,7 +14,7 @@ void work()
 		while(j && s[i]!=s[j+1]) j=f[j];
 		if(s[i]==s[j+1]) ++j;
 		f[i]=j;
-		cnt[i]=cnt[j]+1;
+		cnt[i]=cnt[j]+1;	//变到0需要走几次
 	}
 	j=0;
 	long long ago=1;
