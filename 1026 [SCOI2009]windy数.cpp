@@ -49,7 +49,6 @@ LL cal(int x)
 }
 int main()
 {
-	//freopen("1.in","r",stdin);
 	pre_do();
 	int a,b;
 	scanf("%d%d",&a,&b);
