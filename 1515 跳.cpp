@@ -28,7 +28,7 @@ LL C(LL n,LL m)
 LL lucas(LL n,LL m)
 {
 	if(!m) return 1;
-	return lucas(n/MOD,m/MOD)*C(n%MOD,m%MOD);
+	return lucas(n/MOD,m/MOD)*C(n%MOD,m%MOD)%MOD;
 }
 LL n,m;
 int main()
