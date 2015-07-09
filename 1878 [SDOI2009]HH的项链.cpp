@@ -26,7 +26,7 @@ struct BIT {
 		return ans;
 	}
 } T;
-struct Node{
+struct Node {
 	int r, id;
 	Node(int r, int id):r(r), id(id) {}
 };
