@@ -3,7 +3,7 @@
 #include<cmath>
 const int MAXN=50000+5;
 typedef long long LL;
-LL gcd(int a,int b)
+LL gcd(LL a,LL b)
 {
 	return b==0?a:gcd(b,a%b);
 }
@@ -28,6 +28,7 @@ inline void modify(int x,int f)
 }
 int main()
 {
+	//freopen("1.in","r",stdin);
 	scanf("%d%d",&n,&m);
 	sz=sqrt(n)+1;
 	for(int i=1;i<=n;++i) scanf("%d",a+i);
@@ -46,10 +47,11 @@ int main()
 			t1=0;t2=1;
 			continue;
 		}
-		t1=sum;t2=(LL)(r-l+1)*(LL)(r-l);
+		t1=sum;t2=(LL)(r-l+1)*(r-l);
 		LL k=gcd(t1,t2);
 		t1/=k;t2/=k;
 	}
 	for(int i=0;i<m;++i) printf("%lld/%lld\n",ansa[i],ansb[i]);
 	return 0;
 }
+
