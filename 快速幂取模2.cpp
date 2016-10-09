@@ -1,25 +1,15 @@
 #include<iostream>
 #include<cstdio>
 using namespace std;
-typedef unsigned long long l;
-l f(l a,l b,l m)
+typedef long long LL;
+LL pow_mod(LL a,LL b)
 {
-    l res=1,t=a%m;
-    while(b)
-    {
-            if(b&1) res=res*t%m;
-            t=t*t%m;
-            b>>=1;
-            }
-    return res;
+	LL ans=1;
+	for(;b;b>>=1,a=a*a%MOD)
+		if(b&1) ans=ans*a%MOD;
+	return ans;
 }
 int main()
 {
-    l a,b,m;
-    cin>>a>>b>>m;
-    cout<<f(a,b,m);
-    cin.get();
-    cin.get();
-    return 0;
 }
               
